@@ -1,0 +1,87 @@
+{
+  "level": 1007,
+  "time_star_3": 350,
+  "time_star_2": 500,
+  "time_star_1": 800,
+  "time_dead": 1000,
+  "stones_fixed" : [
+    {"row" : 6, "col" : 1},
+
+    {"row" : 4, "col" : 1},
+    {"row" : 6, "col" : 3},
+
+    {"row" : 2, "col" : 1},
+    {"row" : 4, "col" : 3},
+    {"row" : 6, "col" : 5},
+
+    {"row" : 2, "col" : 10},
+    {"row" : 4, "col" : 12},
+    {"row" : 6, "col" : 14},
+
+    {"row" : 2, "col" : 12},
+    {"row" : 4, "col" : 14},
+
+    {"row" : 2, "col" : 14}
+  ],
+  "frozens_fixed" : [
+    {"row" : 7, "col" : 2},
+
+    {"row" : 5, "col" : 2},
+    {"row" : 7, "col" : 4},
+
+    {"row" : 3, "col" : 2},
+    {"row" : 5, "col" : 4},
+    {"row" : 7, "col" : 6},
+
+    {"row" : 3, "col" : 11},
+    {"row" : 5, "col" : 13},
+
+    {"row" : 3, "col" : 13},
+
+    {"row" : 1, "col" : 9},
+    {"row" : 1, "col" : 11},
+    {"row" : 1, "col" : 13},
+
+    {"row" : 1, "col" : 3},
+    {"row" : 2, "col" : 4},
+    {"row" : 3, "col" : 5},
+    {"row" : 4, "col" : 6},
+    {"row" : 5, "col" : 7},
+    {"row" : 6, "col" : 8},
+    {"row" : 7, "col" : 9},
+
+    {"row" : 1, "col" : 6},
+    {"row" : 2, "col" : 7},
+    {"row" : 3, "col" : 8},
+    {"row" : 4, "col" : 9},
+    {"row" : 5, "col" : 10},
+    {"row" : 6, "col" : 11},
+    {"row" : 7, "col" : 12}
+  ],
+  "reward": [
+    {
+      "type":0,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    },
+    {
+      "type":1,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    },
+    {
+      "type":2,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    }
+  ]
+}

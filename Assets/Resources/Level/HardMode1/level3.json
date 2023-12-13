@@ -1,0 +1,40 @@
+{
+  "level": 3,
+  "time_star_3": 300,
+  "time_star_2": 450,
+  "time_star_1": 700,
+  "time_dead": 1000,
+  "auto_gen":[
+    {
+      "type":1,
+      "time_gen":6,
+      "time_gen_wait":2,
+    }
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":2,
+  		"probability0": 8,
+  		"probability1": 10,
+  		"probability2": 15,
+  		"probability3": 20,
+  	},
+  	{
+      "type":1,
+  		"number":2,
+  		"probability0": 8,
+  		"probability1": 10,
+  		"probability2": 15,
+  		"probability3": 20,
+  	},
+  	{
+      "type":2,
+  		"number":2,
+  		"probability0": 8,
+  		"probability1": 10,
+  		"probability2": 15,
+  		"probability3": 20,
+  	}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "level": 1,
+  "time_star_3": 250,
+  "time_star_2": 400,
+  "time_star_1": 500,
+  "time_dead": 650,
+  "constraint" : [
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 13,
+  	},
+  	{
+      "type":1,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 13,
+  	},
+  	{
+      "type":2,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 50,
+  	}
+  ]
+}

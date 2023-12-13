@@ -1,0 +1,61 @@
+{
+  "level": 23,
+  "time_star_3": 250,
+  "time_star_2": 450,
+  "time_star_1": 550,
+  "time_dead": 650,
+  "frozens_fixed" : [
+    {"row" : 3, "col" : 4},
+    {"row" : 3, "col" : 5},
+    {"row" : 3, "col" : 6},
+    {"row" : 3, "col" : 7},
+    {"row" : 3, "col" : 8},
+    {"row" : 3, "col" : 9},
+    {"row" : 3, "col" : 10},
+    {"row" : 3, "col" : 11},
+    {"row" : 3, "col" : 12},
+    {"row" : 3, "col" : 13},
+    {"row" : 6, "col" : 4},
+    {"row" : 6, "col" : 5},
+    {"row" : 6, "col" : 6},
+    {"row" : 6, "col" : 7},
+    {"row" : 6, "col" : 8},
+    {"row" : 6, "col" : 9},
+    {"row" : 6, "col" : 10},
+    {"row" : 6, "col" : 11},
+    {"row" : 6, "col" : 12},
+    {"row" : 6, "col" : 13},
+    {"row" : 4, "col" : 4},
+    {"row" : 5, "col" : 4},
+    {"row" : 4, "col" : 13},
+    {"row" : 5, "col" : 13}
+  ],
+  "constraint" : [
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 13,
+  	},
+  	{
+      "type":1,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 13,
+  	},
+  	{
+      "type":2,
+  		"number":1,
+  		"probability0": 2,
+  		"probability1": 5,
+  		"probability2": 8,
+  		"probability3": 50,
+  	}
+  ]
+}

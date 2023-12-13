@@ -1,0 +1,43 @@
+{
+  "level": 20,
+  "time_star_3": 300,
+  "time_star_2": 500,
+  "time_star_1": 700,
+  "time_dead": 900,
+  "auto_gen":[
+    {
+      "type":1,
+      "time_gen":5,
+      "time_gen_wait":3,
+    }
+  ],
+  "constraint" : [
+  	{ "direction" : 4, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 7, "col" : 14} }
+  ],
+  "reward": [
+  	{
+      "type":0,
+      "number":2,
+      "probability0": 20,
+      "probability1": 25,
+      "probability2": 30,
+      "probability3": 35,
+    },
+    {
+      "type":1,
+      "number":3,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 26,
+      "probability3": 30,
+    },
+    {
+      "type":2,
+      "number":2,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 26,
+      "probability3": 30,
+    }
+  ]
+}

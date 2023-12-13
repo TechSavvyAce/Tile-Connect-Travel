@@ -1,0 +1,117 @@
+{
+  "level": 9001,
+  "time_star_3": 90000,
+  "time_star_2": 80000,
+  "time_star_1": 70000,
+  "time_dead": 0,
+  "pokemon_fixed":[
+    {"row" : 1, "col" : 1, "id" : 1},
+    {"row" : 1, "col" : 4, "id" : 1},
+    {"row" : 1, "col" : 6, "id" : 3},
+    {"row" : 1, "col" : 7, "id" : 4},
+    {"row" : 1, "col" : 8, "id" : 5},
+    {"row" : 1, "col" : 9, "id" : 6},
+    {"row" : 1, "col" : 10, "id" : 7},
+    {"row" : 1, "col" : 11, "id" : 10},
+    {"row" : 1, "col" : 13, "id" : 18},
+    {"row" : 1, "col" : 2, "id" : 18},
+    {"row" : 1, "col" : 3, "id" : 29},
+    {"row" : 1, "col" : 14, "id" : 29},
+    {"row" : 1, "col" : 5, "id" : 8},
+    {"row" : 1, "col" : 12, "id" : 8},
+    {"row" : 7, "col" : 6, "id" : 14},
+    {"row" : 7, "col" : 12, "id" : 14}
+  ],
+  "stones_fixed": [
+    
+    {
+      "row": 6,
+      "col": 2
+    },
+    {
+      "row": 6,
+      "col": 3
+    },
+    {
+      "row": 6,
+      "col": 4
+    },
+    {
+      "row": 6,
+      "col": 5
+    },
+    {
+      "row": 6,
+      "col": 6
+    },
+    {
+      "row": 6,
+      "col": 9
+    },
+    {
+      "row": 6,
+      "col": 10
+    },
+    {
+      "row": 6,
+      "col": 11
+    },
+    {
+      "row": 6,
+      "col": 12
+    },
+    {
+      "row": 6,
+      "col": 13
+    }
+  ],
+  "stones_moving" : [
+    {"row" : 4, "col" : 4},
+    {"row" : 4, "col" : 3},
+    {"row" : 3, "col" : 4},
+    {"row" : 3, "col" : 3},
+    {"row" : 4, "col" : 11},
+    {"row" : 4, "col" : 12},
+    {"row" : 3, "col" : 11},
+    {"row" : 3, "col" : 12}
+  ],
+  "frozens_fixed" : [
+    {"row" : 1, "col" : 7},
+    {"row" : 1, "col" : 8},
+    {"row" : 1, "col" : 9},
+    {"row" : 1, "col" : 6},
+    {"row" : 2, "col" : 7},
+    {"row" : 2, "col" : 8},
+    {"row" : 2, "col" : 9},
+    {"row" : 2, "col" : 6},
+  ],
+  "constraint" : [
+    { "direction" : 4, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 7, "col" : 14} }
+  ],
+  "reward": [
+    {
+      "type":0,
+      "number":2,
+      "probability0": 20,
+      "probability1": 25,
+      "probability2": 30,
+      "probability3": 35,
+    },
+    {
+      "type":1,
+      "number":1,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 26,
+      "probability3": 30,
+    },
+    {
+      "type":2,
+      "number":1,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 26,
+      "probability3": 30,
+    }
+  ]
+}

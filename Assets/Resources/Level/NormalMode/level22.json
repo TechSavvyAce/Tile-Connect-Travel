@@ -1,0 +1,53 @@
+{
+  "level": 22,
+  "time_star_3": 300,
+  "time_star_2": 400,
+  "time_star_1": 550,
+  "time_dead": 650,
+  "stones_moving" : [
+    {"row" : 5, "col" : 1},
+    {"row" : 5, "col" : 2},
+    {"row" : 5, "col" : 3},
+    {"row" : 5, "col" : 4},
+    {"row" : 5, "col" : 5},
+    {"row" : 5, "col" : 6},
+    {"row" : 5, "col" : 7},
+    {"row" : 5, "col" : 8},
+    {"row" : 4, "col" : 9},
+    {"row" : 4, "col" : 10},
+    {"row" : 4, "col" : 11},
+    {"row" : 4, "col" : 12},
+    {"row" : 4, "col" : 13},
+    {"row" : 4, "col" : 14}
+  ],
+  "constraint" : [
+  	{ "direction" : 4, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 7, "col" : 7} },
+  	{ "direction" : 3, "cell1" : {"row" : 1, "col" : 9},  "cell2" : {"row" : 7, "col" : 14} }
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":2,
+  		"probability0": 15,
+  		"probability1": 20,
+  		"probability2": 25,
+  		"probability3": 30,
+  	},
+  	{
+      "type":1,
+  		"number":1,
+  		"probability0": 15,
+  		"probability1": 18,
+  		"probability2": 22,
+  		"probability3": 26,
+  	},
+  	{
+      "type":2,
+  		"number":1,
+  		"probability0": 15,
+  		"probability1": 18,
+  		"probability2": 22,
+  		"probability3": 26,
+  	}
+  ]
+}

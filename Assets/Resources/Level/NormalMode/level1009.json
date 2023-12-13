@@ -1,0 +1,51 @@
+{
+  "level": 1009,
+  "time_star_3": 350,
+  "time_star_2": 500,
+  "time_star_1": 800,
+  "time_dead": 1000,
+  "stones_fixed" : [
+    {"row" : 1, "col" : 1},
+    {"row" : 1, "col" : 3},
+    {"row" : 1, "col" : 14},
+    {"row" : 1, "col" : 5},
+    {"row" : 1, "col" : 12},
+    {"row" : 1, "col" : 7},
+    {"row" : 1, "col" : 10},
+    {"row" : 3, "col" : 1},
+    {"row" : 6, "col" : 1},
+    {"row" : 7, "col" : 1},
+    {"row" : 7, "col" : 3},
+    {"row" : 7, "col" : 14},
+    {"row" : 7, "col" : 5},
+    {"row" : 7, "col" : 12},
+    {"row" : 7, "col" : 7},
+    {"row" : 7, "col" : 10}
+  ],
+  "reward": [
+    {
+      "type":0,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    },
+    {
+      "type":1,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    },
+    {
+      "type":2,
+      "number":1,
+      "probability0": 5,
+      "probability1": 8,
+      "probability2": 12,
+      "probability3": 17,
+    }
+  ]
+}

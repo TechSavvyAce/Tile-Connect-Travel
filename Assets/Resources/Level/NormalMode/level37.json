@@ -1,0 +1,68 @@
+{
+  "level": 37,
+  "time_star_3": 350,
+  "time_star_2": 650,
+  "time_star_1": 800,
+  "time_dead": 900,
+  "auto_gen":[
+    {
+      "type":1,
+      "time_gen":4,
+      "time_gen_wait":2,
+    }
+  ],
+  "stones_fixed":[
+    {"row" : 6, "col" : 3},
+    {"row" : 3, "col" : 3},
+    {"row" : 5, "col" : 3},
+    {"row" : 4, "col" : 3},
+    {"row" : 5, "col" : 14},
+    {"row" : 4, "col" : 14}
+    {"row" : 6, "col" : 14},
+    {"row" : 3, "col" : 14},
+    {"row" : 6, "col" : 6},
+    {"row" : 3, "col" : 6},
+    {"row" : 6, "col" : 11},
+    {"row" : 3, "col" : 11}
+  ],
+  "stones_moving" : [
+    {"row" : 7, "col" : 3},
+    {"row" : 2, "col" : 3},
+    {"row" : 7, "col" : 14},
+    {"row" : 2, "col" : 14},
+    {"row" : 5, "col" : 6},
+    {"row" : 4, "col" : 6},
+    {"row" : 5, "col" : 11},
+    {"row" : 4, "col" : 11}
+  ],
+  "constraint" : [
+  	{ "direction" : 1, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 7, "col" : 7} },
+    { "direction" : 2, "cell1" : {"row" : 1, "col" : 9},  "cell2" : {"row" : 7, "col" : 14} }
+  ],
+  "reward": [
+    {
+      "type":0,
+      "number":2,
+      "probability0": 20,
+      "probability1": 25,
+      "probability2": 40,
+      "probability3": 60,
+    },
+    {
+      "type":1,
+      "number":2,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 40,
+      "probability3": 60,
+    },
+    {
+      "type":2,
+      "number":1,
+      "probability0": 18,
+      "probability1": 22,
+      "probability2": 40,
+      "probability3": 60,
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+lastUpgrade=00939
+proj.pluginVersion=0.9.39a
+proj.AppId=657455562291
+and.BundleId=com.sunnymonkey.pikachuclassic2017
+proj.classDir=Assets
+proj.ConstantsClassName=PikachuRankingResource
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0a%3c%21--%0aGoogle+Play+game+services+IDs.%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0a--%3e%0a%3cresources%3e%0a++%3cstring+name%3d%22app_id%22%3e657455562291%3c%2fstring%3e%0a++%3cstring+name%3d%22package_name%22%3ecom.sunnymonkey.pikachuclassic2017%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pikachu_achievement_1%22%3eCgkIs_yem5ETEAIQAw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pikachu_achievement_2%22%3eCgkIs_yem5ETEAIQBA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pikachu_achievement_3%22%3eCgkIs_yem5ETEAIQBg%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pikachu_achievement_4%22%3eCgkIs_yem5ETEAIQBw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_pikachu_achievement_5%22%3eCgkIs_yem5ETEAIQCA%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_pikachu_ranking_normal%22%3eCgkIs_yem5ETEAIQAg%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_pikachu_ranking_hard_1%22%3eCgkIs_yem5ETEAIQCQ%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_pikachu_ranking_hard_2%22%3eCgkIs_yem5ETEAIQCg%3c%2fstring%3e%0a%3c%2fresources%3e%0a
+and.ClientId=657455562291-s6b57i18jpd71kd7mekqp9f4nh7rd7b9.apps.googleusercontent.com
+proj.requireGPlus=false
+android.SetupDone=true

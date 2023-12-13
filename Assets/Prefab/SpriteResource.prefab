@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &137812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22443978}
+  - 114: {fileID: 11454434}
+  m_Layer: 5
+  m_Name: SpriteResource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11454434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46f4dadb8ee74ec28b7628d8482d8f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_hint: {fileID: 21300000, guid: e31103da475c74de2a67d2ef242d0b79, type: 3}
+  item_random: {fileID: 21300000, guid: 8086aa269568248bfa9167baa8095313, type: 3}
+  item_energy: {fileID: 21300000, guid: aad0232845bea446784730eb88fc077a, type: 3}
+  ui_default_pokemon: {fileID: 21300000, guid: 52799a290824b4413b20b3a3e687afb1, type: 3}
+  ui_default_fruit: {fileID: 21300000, guid: ad1aa0a65ab3b46db94e87ef7732db65, type: 3}
+  ui_default_monster: {fileID: 21300000, guid: c09f8c663d0fc4a9785d7de33831eb2d, type: 3}
+  coin_icon: {fileID: 21300000, guid: 4ab1e513cb8cc481bb8a64718a35a2be, type: 3}
+--- !u!224 &22443978
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 137812}
+  m_IsPrefabParent: 1

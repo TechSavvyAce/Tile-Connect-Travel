@@ -1,0 +1,78 @@
+{
+  "level": 38,
+  "time_star_3": 350,
+  "time_star_2": 500,
+  "time_star_1": 700,
+  "time_dead": 900,
+  "constraint" : [
+  	{ "direction" : 2, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 8, "col" : 16} }
+  ],
+  "stones_moving" : [
+    {"row" : 8, "col" : 1},
+
+    {"row" : 2, "col" : 1},
+    {"row" : 3, "col" : 2},
+    {"row" : 4, "col" : 3},
+    {"row" : 5, "col" : 4},
+    {"row" : 6, "col" : 5},
+    {"row" : 7, "col" : 6},
+
+    {"row" : 2, "col" : 14},
+    {"row" : 1, "col" : 13},
+
+    {"row" : 1, "col" : 7},
+    {"row" : 2, "col" : 8},
+    {"row" : 3, "col" : 9},
+    {"row" : 4, "col" : 10},
+    {"row" : 5, "col" : 11},
+    {"row" : 6, "col" : 12},
+    {"row" : 7, "col" : 13},
+  ],
+  "frozens_fixed" : [
+    {"row" : 5, "col" : 1},
+    {"row" : 6, "col" : 2},
+    {"row" : 7, "col" : 3},
+
+    {"row" : 1, "col" : 4},
+    {"row" : 2, "col" : 5},
+    {"row" : 3, "col" : 6},
+    {"row" : 4, "col" : 7},
+    {"row" : 5, "col" : 8},
+    {"row" : 6, "col" : 9},
+    {"row" : 7, "col" : 10},
+
+    {"row" : 5, "col" : 14},
+    {"row" : 4, "col" : 13},
+    {"row" : 3, "col" : 12},
+    {"row" : 2, "col" : 11},
+    {"row" : 1, "col" : 10},
+
+    {"row" : 1, "col" : 16},
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":1,
+  		"probability0": 5,
+  		"probability1": 8,
+  		"probability2": 12,
+  		"probability3": 17,
+  	},
+  	{
+      "type":1,
+  		"number":1,
+  		"probability0": 5,
+  		"probability1": 8,
+  		"probability2": 12,
+  		"probability3": 17,
+  	},
+  	{
+      "type":2,
+  		"number":1,
+  		"probability0": 5,
+  		"probability1": 8,
+  		"probability2": 12,
+  		"probability3": 17,
+  	}
+  ]
+}

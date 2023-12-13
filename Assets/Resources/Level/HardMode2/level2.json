@@ -1,0 +1,36 @@
+{
+  "level": 2,
+  "time_star_3": 200,
+  "time_star_2": 300,
+  "time_star_1": 450,
+  "time_dead": 600,
+  "constraint" : [
+  	{ "direction" : 3, "cell1" : {"row" : 1, "col" : 1},  "cell2" : {"row" : 7, "col" : 14} }
+  ],
+  "reward": [
+  	{
+      "type":0,
+  		"number":1,
+  		"probability0": 3,
+  		"probability1": 7,
+  		"probability2": 10,
+  		"probability3": 15,
+  	},
+  	{
+      "type":1,
+  		"number":1,
+  		"probability0": 3,
+  		"probability1": 7,
+  		"probability2": 10,
+  		"probability3": 15,
+  	},
+  	{
+      "type":2,
+  		"number":1,
+  		"probability0": 3,
+  		"probability1": 7,
+  		"probability2": 10,
+  		"probability3": 15,
+  	}
+  ]
+}
